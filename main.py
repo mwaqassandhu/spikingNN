@@ -1,5 +1,5 @@
 #---------------------------------------------------
-# Imports: Deeplearning project
+# Imports
 #---------------------------------------------------
 from __future__ import print_function
 import argparse
@@ -22,7 +22,7 @@ import os
 import shutil
 
 use_cuda = True
-
+#use cuda
 #torch.manual_seed(2)
 if torch.cuda.is_available() and use_cuda:
     print ("\n \t ------- Running on GPU -------")
